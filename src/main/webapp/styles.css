@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+/* Default Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Media Query for screens less than 1000px */
+@media only screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .burger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
+/* Burger Menu Styles */
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger .line1,
+.burger .line2,
+.burger .line3 {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+/* Script for Burger Menu Toggle */

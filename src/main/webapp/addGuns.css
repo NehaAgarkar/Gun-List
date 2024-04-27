@@ -1,0 +1,110 @@
+/* styles.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Headings */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Input Fields */
+input[type="text"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* styles.css */
+
+/* Select */
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Select Arrow */
+select:after {
+    content: '\25BC';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #555;
+}
+
+/* Select Hover */
+select:hover {
+    border-color: #007bff;
+}
+
+/* Select Focus */
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+/* styles.css */
+
+/* Anchor Tag Styled as Button */
+.showAllGuns {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.showAllGuns:hover {
+    background-color: #0056b3;
+}
+

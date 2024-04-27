@@ -1,0 +1,79 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Container styles */
+.container {
+    max-width: 960px;
+    margin: 50px auto; /* Adjust margin as needed */
+    padding: 20px;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    background-color: black; /* Set background color to black */
+    color: white; /* Set text color to white */
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #343a40;
+}
+
+.table img {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Button styles */
+.btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    position: relative;
+    right: 60px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    position: absolute;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Link styles */
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: none;
+}
